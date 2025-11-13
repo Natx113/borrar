@@ -218,9 +218,6 @@ if (!firebase.apps.length) {
 
       window.location.href = 'calendarioCliente.html'
       console.log("Cita guardada con id:", docRef.id)
-      horacita.value=""; //reseta el selects
-      actualizarHorasOcupadas();
-
     } catch (error) {
       alert("Error al agendar la cita. Intenta de nuevo");
       console.log("Error al agendar la cita", error)
