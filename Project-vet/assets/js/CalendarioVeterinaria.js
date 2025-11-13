@@ -106,7 +106,7 @@ if (!firebase.apps.length) {
     const minutoActual = ahora.getMinutes();
 
 
-    const dbResponse = await db.collection("citas")
+    const dbResponse = await db.collection("citas") //consulta la base para ver las citas ocupadas
     .where("fecha", "==", fechaSeleccionada)
     .where("estado", "in", ["activa", null]) // Incluye activas y citas antiguas sin estado
     .get();
