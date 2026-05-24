@@ -1,0 +1,20 @@
+# Audio processing
+librosa
+soundfile
+
+# Mathematical operations
+numpy
+pandas
+
+# Machine Learning and processing
+scikit-learn
+
+# visualization
+matplotlib
+seaborn
+
+# Save and load models
+joblib
+
+# Open Cv
+opencv-python
